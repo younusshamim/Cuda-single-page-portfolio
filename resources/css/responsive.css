@@ -1,0 +1,100 @@
+@media only screen and (max-width:1200px){
+    .row{
+        margin: 0 20px;
+    }
+}
+
+
+
+@media only screen and (max-width:1024px){
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width:49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+
+    .testimonial .client-photo{
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+    .testimonial .client-review{
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+    .contact form{
+        width:100%;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+
+}
+
+
+@media only screen and (max-width:768px){
+    .services .little-description,
+    .team .little-description,
+    .skill .little-description,
+    .portfolio .little-description,
+    .services .little-description,
+    .testimonial .little-description,
+    .contact .little-description
+    {
+        width:100%;
+    }
+    .hero-text-box{
+        margin-top: 10.5rem;
+    }
+    .hero-text-box h1{
+        font-size: 3.5rem;
+    }
+    .row h2{
+        font-size: 3rem;
+    }
+    header{
+        height: 70vh;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .hero-text-box{
+        margin-top: 7rem;
+    }
+    .span_1_of_4{
+        width:100%;
+    }
+    .hero-text-box h1{
+        font-size: 3rem;
+    }
+    .row h2{
+        font-size: 2rem;
+    }
+
+    .testimonial .col:nth-child(1),
+    .testimonial .col:nth-child(2)
+    {
+        margin:0;
+    }
+    .testimonial .span_1_of_2
+    {
+        margin:3rem 0!important;
+    }
+    .contact input[type="submit"]{
+        width:90%;
+    }
+}
